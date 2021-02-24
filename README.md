@@ -56,11 +56,10 @@ or
 
 ## Authors
 
-👤 **Rolando**
+👤 **Maximiliano Diaz**
 
-- GitHub: [@arthurborgesdev](https://github.com/kiranitor123)
-- Twitter: [@rolando](https://twitter.com/FayeRolando)
-- LinkedIn: [Rolando](https://www.linkedin.com/in/rolando-diego-alvarez-faye-b2b34a1a9/)
+- GitHub: [@mistermaxis](https://github.com/mistermaxis)
+- LinkedIn: [Rolando](https://www.linkedin.com/in/mistermaxis/?originalSubdomain=ar)
 
 👤 **Arthur Borges**
 
