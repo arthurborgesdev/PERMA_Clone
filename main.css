@@ -206,9 +206,17 @@ a:hover {
   padding: 0 10px;
 }
 
-.ln-card-text p {
+.ln-card-text p a, .ln-card-text p {
   color: gray;
   font-size: 13px;
+}
+
+.ln-card-text a {
+  color: #000;
+}
+
+.ln-card-text a:hover {
+  color: #f42;
 }
 
 .footer-content > div > p {
@@ -552,7 +560,7 @@ a:hover {
   }
 
   .ln-card img {
-    height: auto;
+    height: 120px;
     width: 100%;
   }
 
