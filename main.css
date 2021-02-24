@@ -232,6 +232,22 @@ a:hover {
   padding: 10px 0;
 }
 
+.topic-card-container h2 {
+  margin-left: 10px;
+}
+
+.topic-card-container a {
+  font-family: avalon, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f42;
+}
+
+.topic-card-container a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 .highlight-card,
 .topic-cards {
   height: 200px;
@@ -242,6 +258,54 @@ a:hover {
   padding: 10px;
   background-size: cover;
   background-position: center;
+}
+
+.topic-cards span:nth-of-type(1) {
+  font-family: shentox, sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+.topic-cards h3 {
+  margin: 0;
+  color: #fff;
+  font-family: arial, sans-serif;
+}
+
+.topic-cards span:nth-of-type(2) {
+  font-family: arial, helvetica, sans-serif;
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.topic-cards span:nth-of-type(2) a {
+  font-family: arial, helvetica, sans-serif;
+  color: gray;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.topic-cards span:nth-of-type(2) a:hover {
+  font-family: arial, helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+.topics-card div {
+  padding: 10px;
+}
+
+.topics-card h3 {
+  font-family: arial, sans-serif;
+  color: #f42;
+  margin-top: 0;
+}
+
+.topics-card div span {
+  font-family: shentox, sans-serif;
+  color: #f42;
+  font-weight: bold;
 }
 
 .image-highlight-container {
