@@ -248,6 +248,31 @@ a:hover {
   color: #000;
 }
 
+.topics-list {
+  list-style: none;
+}
+
+.topics-list a {
+  color: #555;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.topics-list li {
+  margin: 12px 0;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding: 5px;
+}
+
+.topics-list li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f42; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1rem; /* Also needed for space (tweak if needed) */
+}
+
 .highlight-card,
 .topic-cards {
   height: 200px;
