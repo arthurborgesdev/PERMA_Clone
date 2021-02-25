@@ -152,12 +152,6 @@ a:hover {
   display: none;
 }
 
-.topics-list a {
-  color: #555;
-  font-size: 14px;
-  font-weight: normal;
-}
-
 .ln-card-text a {
   color: #000;
 }
@@ -167,6 +161,12 @@ a:hover {
   font-size: 20px;
   font-weight: bold;
   color: #f42;
+}
+
+.topics-list a {
+  color: #555;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .social-icons div a {

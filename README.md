@@ -72,7 +72,7 @@ or
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/kiranitor123/PERMA_Clone/issues).
 
 ## Show your support
 
