@@ -4,7 +4,7 @@
 
 > This is a project for us to learn about CSS Grid, and media queries. We had to develop a full clone of TNW website, making it responsive through mobile, tablet and desktop.
 
-![screenshot-of-tnw-website](./tnw-arthur-rolando.png)
+![screenshot-of-tnw-website](./tnw-rolando-arthur.png)
 
 ## Built With
 
@@ -56,11 +56,10 @@ or
 
 ## Authors
 
-👤 **Rolando**
+👤 **Maximiliano Diaz**
 
-- GitHub: [@arthurborgesdev](https://github.com/kiranitor123)
-- Twitter: [@rolando](https://twitter.com/FayeRolando)
-- LinkedIn: [Rolando](https://www.linkedin.com/in/rolando-diego-alvarez-faye-b2b34a1a9/)
+- GitHub: [@mistermaxis](https://github.com/mistermaxis)
+- LinkedIn: [@Maximiliano](https://www.linkedin.com/in/mistermaxis/?originalSubdomain=ar)
 
 👤 **Arthur Borges**
 
@@ -73,7 +72,7 @@ or
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/kiranitor123/PERMA_Clone/issues).
 
 ## Show your support
 
