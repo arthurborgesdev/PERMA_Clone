@@ -27,6 +27,10 @@ body {
   width: 100%;
 }
 
+main {
+  margin: 0 5%;
+}
+
 footer {
   height: 200px;
   width: auto;
