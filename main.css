@@ -136,7 +136,7 @@ a:hover {
   font-weight: bold;
 }
 
-.footer-content > div > a {
+.footer-content > a {
   color: #fff;
 }
 
@@ -197,11 +197,11 @@ a:hover {
 .footer-content {
   background-color: #000;
   color: #fff;
-  border-top: 1px solid darkgray;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 13px;
+  padding: 20px 0;
 }
 
 .ln-card-text p,
@@ -223,13 +223,21 @@ a:hover {
   color: #f42;
 }
 
-.footer-content > div > p {
-  margin: 5px 0;
-  text-align: center;
+.footer-content div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content div p {
+  margin: 0;
 }
 
 .footer-logo {
-  width: 10%;
+  width: 7%;
+}
+
+.stackpath {
+  display: flex;
 }
 
 .pad-10-0 {
@@ -569,8 +577,11 @@ a:hover {
 
   .footer-content {
     flex-direction: row;
-    justify-content: center;
     padding: 2rem 0;
+  }
+
+  .footer-content p:first-child {
+    width: 100%;
   }
 
   .menu-content p {
@@ -684,10 +695,6 @@ a:hover {
   .ld-card-text h3,
   .ld-card-text p {
     padding: 0;
-  }
-
-  .footer-content > div > p {
-    text-align: unset;
   }
 
   .pipe1::after,
