@@ -8,8 +8,10 @@
   src: url('./fonts/Avalon.ttf') format('truetype');
 }
 
+@tnw-red: #f42;
+
 .title-red {
-  color: #f42;
+  color: @tnw-red;
   font-family: avalon, sans-serif;
   font-weight: 900;
   font-size: 24px;
@@ -21,7 +23,7 @@ body {
 }
 
 .top-nav {
-  background-color: red;
+  background-color: @tnw-red;
   position: fixed;
   top: 0;
   width: 100%;
@@ -119,7 +121,7 @@ a:hover {
 
 .ld-header a {
   padding: 20px 10px 0 0;
-  color: #f42;
+  color: @tnw-red;
 }
 
 .black-bar-right-links a,
@@ -160,7 +162,7 @@ a:hover {
   font-family: avalon, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: #f42;
+  color: @tnw-red;
 }
 
 .topics-list a {
@@ -238,7 +240,7 @@ a:hover {
 }
 
 .ln-card-text a:hover {
-  color: #f42;
+  color: @tnw-red;
 }
 
 .footer-content p {
@@ -284,7 +286,7 @@ a:hover {
 
 .topics-list li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #f42; /* Change the color */
+  color: @tnw-red; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -309,7 +311,7 @@ a:hover {
 
 .topics-card div span {
   font-family: shentox, sans-serif;
-  color: #f42;
+  color: @tnw-red;
   font-weight: bold;
 }
 
@@ -349,7 +351,7 @@ a:hover {
 
 .topics-card h3 {
   font-family: arial, sans-serif;
-  color: #f42;
+  color: @tnw-red;
   margin-top: 0;
 }
 
@@ -480,7 +482,7 @@ a:hover {
 
 .lf-card-title {
   color: #fff;
-  background-color: red;
+  background-color: @tnw-red;
   margin: 0;
   padding: 10px;
 }
@@ -549,7 +551,7 @@ a:hover {
 
 .hamburger-color,
 .lf-color {
-  color: red;
+  color: @tnw-red;
 }
 
 @media only screen and (min-width: 768px) {

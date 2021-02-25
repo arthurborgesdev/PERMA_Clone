@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 .top-nav {
-  background-color: red;
+  background-color: #f42;
   position: fixed;
   top: 0;
   width: 100%;
@@ -397,7 +397,7 @@ a:hover {
 }
 .lf-card-title {
   color: #fff;
-  background-color: red;
+  background-color: #f42;
   margin: 0;
   padding: 10px;
 }
@@ -453,7 +453,7 @@ a:hover {
 }
 .hamburger-color,
 .lf-color {
-  color: red;
+  color: #f42;
 }
 @media only screen and (min-width: 768px) {
   .white-bar-links {
