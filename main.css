@@ -332,16 +332,18 @@ a:hover {
 }
 
 .topic-cards span:nth-of-type(2) a {
-  font-family: arial, helvetica, sans-serif;
   color: gray;
-  font-size: 14px;
   font-weight: normal;
 }
 
+.topic-cards span:nth-of-type(2) a,
 .topic-cards span:nth-of-type(2) a:hover {
   font-family: arial, helvetica, sans-serif;
-  color: #fff;
   font-size: 14px;
+}
+
+.topic-cards span:nth-of-type(2) a:hover {
+  color: #fff;
 }
 
 .topics-card h3 {
@@ -454,16 +456,18 @@ a:hover {
   margin-left: 10px;
 }
 
-.ld-card-description p:nth-of-type(1) {
+.ld-card-description p:nth-of-type(1),
+.ld-card-description p:nth-of-type(2) {
   font-family: ARS Maquette, helvetica neue, arial, sans-serif;
   font-size: 14px;
+}
+
+.ld-card-description p:nth-of-type(1) {
   margin-bottom: 5px;
   font-weight: bold;
 }
 
 .ld-card-description p:nth-of-type(2) {
-  font-family: ARS Maquette, helvetica neue, arial, sans-serif;
-  font-size: 14px;
   margin-top: 5px;
 }
 
