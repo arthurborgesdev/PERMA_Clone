@@ -6,6 +6,10 @@
   font-family: "avalon";
   src: url('./fonts/Avalon.ttf') format('truetype');
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 .title-red {
   color: #f42;
   font-family: avalon, sans-serif;
@@ -162,8 +166,8 @@ a:hover {
 }
 .mobile-bar {
   display: flex;
-  width: 100%;
   flex-direction: column;
+  width: 100%;
 }
 .social-icons {
   display: flex;
@@ -183,10 +187,10 @@ a:hover {
   text-decoration: none;
 }
 .footer-content {
-  background-color: #000;
-  color: #fff;
   display: flex;
   flex-direction: column;
+  background-color: #000;
+  color: #fff;
   align-items: center;
   font-size: 13px;
   padding: 20px 0;
@@ -425,6 +429,7 @@ a:hover {
   padding: 10px 0;
 }
 .lf-card-part2 {
+  display: flex;
   flex-direction: column;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -554,6 +559,7 @@ a:hover {
     padding-right: 5px;
   }
   .ln-card {
+    display: flex;
     flex-direction: column;
   }
   .ln-card img {
@@ -564,6 +570,7 @@ a:hover {
     margin-top: 5px;
   }
   .ld-card {
+    display: flex;
     flex-direction: column;
     margin: 10px;
   }

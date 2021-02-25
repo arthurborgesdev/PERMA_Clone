@@ -10,6 +10,11 @@
 
 @tnw-red: #f42;
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .title-red {
   color: @tnw-red;
   font-family: avalon, sans-serif;
@@ -197,14 +202,14 @@ a:hover {
 }
 
 .mobile-bar {
-  display: flex;
+  .flex-column;
+
   width: 100%;
-  flex-direction: column;
 }
 
 .social-icons {
-  display: flex;
-  flex-direction: column;
+  .flex-column;
+
   background-color: #131313;
 }
 
@@ -224,10 +229,10 @@ a:hover {
 }
 
 .footer-content {
+  .flex-column;
+
   background-color: #000;
   color: #fff;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   font-size: 13px;
   padding: 20px 0;
@@ -296,8 +301,9 @@ a:hover {
 .highlight-card,
 .topic-cards {
   height: 200px;
-  display: flex;
-  flex-direction: column;
+
+  .flex-column;
+
   justify-content: flex-end;
   margin: 10px 10px 2px 10px;
   padding: 10px;
@@ -444,8 +450,7 @@ a:hover {
 }
 
 .ln-card-text {
-  display: flex;
-  flex-direction: column;
+  .flex-column;
 }
 
 .ln-card-text h3 {
@@ -516,7 +521,8 @@ a:hover {
 }
 
 .lf-card-part2 {
-  flex-direction: column;
+  .flex-column;
+
   border-top: 1px solid;
   border-bottom: 1px solid;
 }
@@ -614,8 +620,8 @@ a:hover {
   .highlight-card {
     margin: 0;
     height: auto;
-    display: flex;
-    flex-direction: column;
+    .flex-column;
+
     justify-content: flex-end;
     padding: 10px;
     background-size: cover;
@@ -676,7 +682,7 @@ a:hover {
   }
 
   .ln-card {
-    flex-direction: column;
+    .flex-column;
   }
 
   .ln-card img {
@@ -689,7 +695,8 @@ a:hover {
   }
 
   .ld-card {
-    flex-direction: column;
+    .flex-column;
+
     margin: 10px;
   }
 
