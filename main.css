@@ -152,10 +152,33 @@ a:hover {
   display: none;
 }
 
+.topics-list a {
+  color: #555;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.ln-card-text a {
+  color: #000;
+}
+
+.topic-card-container a {
+  font-family: avalon, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f42;
+}
+
 .social-icons div a {
   text-decoration: none;
   font-size: 13px;
   padding: 0 5px;
+}
+
+.ln-card-text p a,
+.ln-card-text p {
+  color: gray;
+  font-size: 13px;
 }
 
 .black-bar-left-links a:first-child {
@@ -181,6 +204,15 @@ a:hover {
   display: flex;
   flex-direction: column;
   background-color: #131313;
+}
+
+.topics-card div {
+  padding: 10px 10px 10px 0;
+}
+
+.footer-content div {
+  display: flex;
+  align-items: center;
 }
 
 .social-icons div:nth-of-type(1) {
@@ -210,22 +242,8 @@ a:hover {
   padding: 0 10px;
 }
 
-.ln-card-text p a, .ln-card-text p {
-  color: gray;
-  font-size: 13px;
-}
-
-.ln-card-text a {
-  color: #000;
-}
-
 .ln-card-text a:hover {
   color: #f42;
-}
-
-.footer-content div {
-  display: flex;
-  align-items: center;
 }
 
 .footer-content div p {
@@ -248,13 +266,6 @@ a:hover {
   margin-left: 10px;
 }
 
-.topic-card-container a {
-  font-family: avalon, sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #f42;
-}
-
 .topic-card-container a:hover {
   text-decoration: none;
   color: #000;
@@ -262,12 +273,6 @@ a:hover {
 
 .topics-list {
   list-style: none;
-}
-
-.topics-list a {
-  color: #555;
-  font-size: 14px;
-  font-weight: normal;
 }
 
 .topics-list li {
@@ -295,6 +300,16 @@ a:hover {
   padding: 10px;
   background-size: cover;
   background-position: center;
+}
+
+.info > span {
+  padding-right: 5px;
+}
+
+.topics-card div span {
+  font-family: shentox, sans-serif;
+  color: #f42;
+  font-weight: bold;
 }
 
 .topic-cards span:nth-of-type(1) {
@@ -329,20 +344,10 @@ a:hover {
   font-size: 14px;
 }
 
-.topics-card div {
-  padding: 10px 10px 10px 0;
-}
-
 .topics-card h3 {
   font-family: arial, sans-serif;
   color: #f42;
   margin-top: 0;
-}
-
-.topics-card div span {
-  font-family: shentox, sans-serif;
-  color: #f42;
-  font-weight: bold;
 }
 
 .image-highlight-container {
@@ -361,10 +366,6 @@ a:hover {
 
 .topic-cards {
   height: 400px;
-}
-
-.info > span {
-  padding-right: 5px;
 }
 
 .hard-fork {
@@ -580,13 +581,23 @@ a:hover {
     padding: 2rem 0;
   }
 
-  .footer-content p:first-child {
-    width: 100%;
-  }
-
   .menu-content p {
     padding: 5px;
     text-align: left;
+  }
+
+  .ln-card-text h3,
+  .ln-card-text p {
+    padding: 0;
+  }
+
+  .ld-card-text h3,
+  .ld-card-text p {
+    padding: 0;
+  }
+
+  .footer-content p:first-child {
+    width: 100%;
   }
 
   .highlights {
@@ -673,11 +684,6 @@ a:hover {
     margin-top: 5px;
   }
 
-  .ln-card-text h3,
-  .ln-card-text p {
-    padding: 0;
-  }
-
   .ld-card {
     flex-direction: column;
     margin: 10px;
@@ -690,11 +696,6 @@ a:hover {
 
   .ld-card-text h3 {
     margin-top: 5px;
-  }
-
-  .ld-card-text h3,
-  .ld-card-text p {
-    padding: 0;
   }
 
   .pipe1::after,
