@@ -279,7 +279,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 10px;
+  margin: 10px 10px 2px 10px;
   padding: 10px;
   background-size: cover;
   background-position: center;
@@ -318,7 +318,7 @@ a:hover {
 }
 
 .topics-card div {
-  padding: 10px;
+  padding: 10px 10px 10px 0;
 }
 
 .topics-card h3 {
@@ -507,8 +507,9 @@ a:hover {
 
 .topics-card {
   display: flex;
-  padding: 0 20px;
-  background-color: aliceblue;
+  padding: 0 0 0 20px;
+  margin: 0 10px;
+  background-color: rgba(255, 68, 34, 0.05);
 }
 
 .search-color,
