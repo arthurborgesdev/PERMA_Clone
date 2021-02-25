@@ -246,16 +246,22 @@ a:hover {
   color: #f42;
 }
 
-.footer-content div p {
-  margin: 0;
+.footer-content p {
+  margin: 2px;
 }
 
 .footer-logo {
-  width: 7%;
+  height: 10px;
+  padding-left: 5px;
 }
 
 .stackpath {
   display: flex;
+}
+
+.stackpath img {
+  height: 9px;
+  padding-left: 2px;
 }
 
 .pad-10-0 {
@@ -724,6 +730,7 @@ a:hover {
   }
 
   .footer-content {
+    display:flex;
     flex-direction: row;
     justify-content: center;
     padding: 2rem 0;
